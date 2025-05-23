@@ -1,0 +1,96 @@
+export const LinePrimaryXAxis = {
+  valueType: "DateTime",
+  labelFormat: "MMM",
+  intervalType: "Months",
+  edgeLabelPlacement: "Shift",
+  majorGridLines: { width: 0 },
+};
+
+export const LinePrimaryYAxis = {
+  title: "Performance Score",
+  minimum: 0,
+  maximum: 100,
+  interval: 20,
+  lineStyle: { width: 0 },
+  majorTickLines: { width: 0 },
+  minorTickLines: { width: 0 },
+  labelStyle: { color: "transparent" },
+};
+
+export const lineCustomSeries = [
+  {
+    dataSource: [
+      { x: new Date(2024, 0, 1), y: 78 },
+      { x: new Date(2024, 1, 1), y: 80 },
+      { x: new Date(2024, 2, 1), y: 85 },
+      { x: new Date(2024, 3, 1), y: 90 },
+      { x: new Date(2024, 4, 1), y: 88 },
+      { x: new Date(2024, 5, 1), y: 92 },
+    ],
+    xName: "x",
+    yName: "y",
+    name: "Shree Bala (HR Head)",
+    type: "Line",
+    marker: { visible: true },
+  },
+  {
+    dataSource: [
+      { x: new Date(2024, 0, 1), y: 65 },
+      { x: new Date(2024, 1, 1), y: 70 },
+      { x: new Date(2024, 2, 1), y: 72 },
+      { x: new Date(2024, 3, 1), y: 78 },
+      { x: new Date(2024, 4, 1), y: 80 },
+      { x: new Date(2024, 5, 1), y: 85 },
+    ],
+    xName: "x",
+    yName: "y",
+    name: "Aarthi (HR)",
+    type: "Line",
+    marker: { visible: true },
+  },
+  {
+    dataSource: [
+      { x: new Date(2024, 0, 1), y: 70 },
+      { x: new Date(2024, 1, 1), y: 75 },
+      { x: new Date(2024, 2, 1), y: 78 },
+      { x: new Date(2024, 3, 1), y: 82 },
+      { x: new Date(2024, 4, 1), y: 86 },
+      { x: new Date(2024, 5, 1), y: 89 },
+    ],
+    xName: "x",
+    yName: "y",
+    name: "Eswari (Tech Lead)",
+    type: "Line",
+    marker: { visible: true },
+  },
+  {
+    dataSource: [
+      { x: new Date(2024, 0, 1), y: 60 },
+      { x: new Date(2024, 1, 1), y: 65 },
+      { x: new Date(2024, 2, 1), y: 68 },
+      { x: new Date(2024, 3, 1), y: 72 },
+      { x: new Date(2024, 4, 1), y: 75 },
+      { x: new Date(2024, 5, 1), y: 80 },
+    ],
+    xName: "x",
+    yName: "y",
+    name: "Prem (Developer)",
+    type: "Line",
+    marker: { visible: true },
+  },
+  {
+    dataSource: [
+      { x: new Date(2024, 0, 1), y: 55 },
+      { x: new Date(2024, 1, 1), y: 60 },
+      { x: new Date(2024, 2, 1), y: 65 },
+      { x: new Date(2024, 3, 1), y: 68 },
+      { x: new Date(2024, 4, 1), y: 72 },
+      { x: new Date(2024, 5, 1), y: 75 },
+    ],
+    xName: "x",
+    yName: "y",
+    name: "Karthik (Support Staff)",
+    type: "Line",
+    marker: { visible: true },
+  },
+];
